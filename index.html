@@ -1,45 +1,35 @@
-<!doctype html>
 <html>
      <head>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-          <meta charset="UTF-8" />
-          <title>super tabelka</title>
-     </head>
-     <body>
-<table >
-	<table style="width:100%">
-  <tr>
-    <th style="font-size:2cm">Wojcik</th>
-   
-  </tr>
-<tr>
-<td>przycisk</td>
-<td>przycisk</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
-<script>
-function Los() {
-alert(Math.random()*100);
-}
-function fib( n){
-if(n==0){
-return 0;
-}
-else if (n==1) {
-return 1;
-} else {
- return fib(n-1)+fib(n-2);
-}
-}
-</script>
+            <title>indx
+            </title>
+          <script language="JavaScript">
+             function WinOpen_Wojcik()            
+               {
+window.open("układ1.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+               }
+               function WinOpen_Wojcik1()            
+               {
+window.open("układ2.html","okienko1","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+               }
+               function WinOpen_Wojcik2()            
+               {
+window.open("układ3.html","okienko2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+               }
+               function WinOpen_Wojcik3()            
+               {
+window.open("układ4.html","okienko3","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+               }
+          </script>
+      </head>
+<body>
+   <form>
+        <input type="button" name="przycisk1" value="układ1" onclick="WinOpen_Wojcik(' ')">
 
-     </body>
+        <input type="button" name="przycisk2" value="układ2" onclick="WinOpen_Wojcik1(' ')">
+
+        <input type="button" name="przycisk3" value="układ3" onclick="WinOpen_Wojcik2(' ')">
+
+        <input type="button" name="przycisk4" value="układ4" onclick="WinOpen_Wojcik3(' ')">
+    </form>
+</body>
 </html>
